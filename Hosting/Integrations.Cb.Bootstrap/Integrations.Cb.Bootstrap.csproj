@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\WelkGroup.WeGo.Integrations.Core.AspNet\WelkGroup.WeGo.Integrations.Core.AspNet.csproj" />
+    <ProjectReference Include="..\..\Integrations.Cb.Business\Integrations.Cb.Business.csproj" />
+    <ProjectReference Include="..\..\Integrations.Cb.Contracts\Integrations.Cb.Contracts.csproj" />
+    <ProjectReference Include="..\..\Integrations.Cb.DataAccess\Integrations.Cb.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

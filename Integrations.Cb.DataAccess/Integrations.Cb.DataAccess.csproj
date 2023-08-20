@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\WelkGroup.WeGo.Integrations.Core.Contracts\WelkGroup.WeGo.Integrations.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\Core\WelkGroup.WeGo.Integrations.Core.Utils\WelkGroup.WeGo.Integrations.Core.Utils.csproj" />
+    <ProjectReference Include="..\Integrations.Cb.Contracts\Integrations.Cb.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
